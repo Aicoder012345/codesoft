@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(89, 36, 36);
+    display: flex;;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px 40px;
+    border-bottom: 2px solid rgb(198, 134, 134);
+    position: hidden;
+}
+
+.nav-logo img{
+    width: 25px;
+    height: 25px;
+}
+.nav-logo{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-right {
+
+}
+.nav-right a{
+    position: hidden;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 35px;
+
+}
+.nav-hover:hover{
+    border-top: 2px solid bisque;
+    border-bottom: 2px solid bisque;
+}
+.hero-section{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(89, 36, 36);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-section img{
+    width: 600px;
+}
+.hero-content{
+    margin:0px 20px;
+}
+
+.hero-content h3{
+    font-size: 5rem;
+    font-weight: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(252, 138, 24);
+    margin-bottom: 20px;
+}
+
+.hero-content h1{
+    font-size: 3rem;
+    font-weight: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+    margin-bottom: 10px;
+}
+
+.hero-content p{
+    font-size: 25px;
+    color: white;
+
+}
+.hero-content button{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 40px;
+    background-color:rgb(252, 138, 24);;
+    color:rgb(89, 36, 36);
+}
+.btn{
+    margin-right: 30px;
+
+}
+
+button:hover{
+    background-color:bisque;
+    color:rgb(89, 36, 36);
+}
+
+
+.about-section{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(247, 226, 200);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.about-img img{
+    width:500px;
+    height: 400px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-size:cover ;
+}
+.about-img{
+    background-size: cover;
+}
+
+.about-message{
+    width: 500px;
+    text-align: center;
+}
+
+.about-message h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+    border-bottom: 4px solid rgb(249, 151, 24);
+}
+.about-message p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.about-icon a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.about-icon{
+    margin-top: 40px;
+}
+.about-icon a:hover{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.menu-section{
+    width:100%;
+    height: 900px;
+    background-color: black;
+    color: white;
+}
+.menu h1{
+    text-align: center;
+}
+
+.menu{
+    width: 500px;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom: 4px solid rgb(124, 104, 104);
+    padding-right: 40px;
+}
+
+.menu-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu-item{
+    margin-top: 40px;
+    text-align: center;
+}
+.menu-item h3{
+    margin-top: 20px;
+}
+.menu-item img{
+    width:300px;
+    border-radius: 3px;
+}
+
+.testimonal-section{
+    width: 100%;
+    height: 500px;
+    background-color: antiquewhite;
+}
+.test-menu{
+    width: 500px;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom: 4px solid black;
+
+}
+.testimonal-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.testimonals{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.testimonals img{
+    width: 200px;
+    border-radius: 50px;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color:rgb(89, 36, 36); ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.address p{
+    font-size: x-large;
+    margin-bottom: 10px;
+    
+}
+.contact h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+
+}
+.contact input{
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: black;
+}
+.contact button{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin:20px;
+    border: none;
+}
+
+.footer-last{
+    width: 100%;
+    height: 60px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+}
